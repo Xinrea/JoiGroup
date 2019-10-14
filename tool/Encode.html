@@ -57,7 +57,7 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../KNOW.md" />
+    <link rel="next" href="../KNOW.html" />
     
     
     <link rel="prev" href="Pre.html" />
@@ -266,9 +266,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../KNOW.md">
+        <li class="chapter " data-level="1.5" data-path="../KNOW.html">
             
-                <span>
+                <a href="../KNOW.html">
             
                     
                         <b>1.5.</b>
@@ -418,7 +418,7 @@
 <p>&#x53EF;&#x91C7;&#x7528;&#x4EE5;&#x4E0B;&#x538B;&#x5236;&#x5DE5;&#x5177;&#x8FDB;&#x884C;</p>
 <p><a href="https://dl.hdslb.com/video-press/xiaowantoolsrev194.zip" target="_blank">&#x5C0F;&#x4E38;&#x538B;&#x5236;&#x5DE5;&#x5177;&#x539F;&#x7248;</a></p>
 <p><a href="https://dl.hdslb.com/video-press/BiliBiliEncoder.zip" target="_blank">&#x5C0F;&#x4E38;&#x538B;&#x5236;&#x5DE5;&#x5177;Bilibili&#x5B9A;&#x5236;&#x7248;</a></p>
-<p>&#x7531;&#x4E8E;&#x524D;&#x9762;&#x63D0;&#x5230;&#x7684;&#x6240;&#x6709;&#x5DE5;&#x5177;&#x90FD;&#x662F;&#x57FA;&#x4E8E;FFmpeg&#x5F00;&#x53D1;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x4E0B;&#x9762;&#x4E5F;&#x4ECB;&#x7ECD;&#x4E00;&#x4E0B;&#x624B;&#x52A8;&#x4F7F;&#x7528;FFmpeg&#x7684;&#x76F8;&#x5173;&#x77E5;&#x8BC6;</p>
+<p>&#x7531;&#x4E8E;&#x524D;&#x9762;&#x63D0;&#x5230;&#x7684;&#x6240;&#x6709;&#x5DE5;&#x5177;&#x90FD;&#x662F;&#x57FA;&#x4E8E; FFmpeg &#x5F00;&#x53D1;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x4E0B;&#x9762;&#x4E5F;&#x4ECB;&#x7ECD;&#x4E00;&#x4E0B;&#x624B;&#x52A8;&#x4F7F;&#x7528; FFmpeg &#x7684;&#x76F8;&#x5173;&#x77E5;&#x8BC6;</p>
 <h2 id="ffmpeg-&#x5165;&#x95E8;">FFmpeg &#x5165;&#x95E8;</h2>
 <h3 id="&#x5C01;&#x88C5;&#x548C;&#x7F16;&#x7801;">&#x5C01;&#x88C5;&#x548C;&#x7F16;&#x7801;</h3>
 <p><img src="../assets/encode.png" alt="&#x5C01;&#x88C5;&#x548C;&#x7F16;&#x7801;"></p>
@@ -429,7 +429,7 @@
 <thead>
 <tr>
 <th style="text-align:center">ffmpeg -i</th>
-<th style="text-align:center">[&#x8F93;&#x5165;&#x6587;&#x4EF6;&#x540D;]</th>
+<th style="text-align:center">[&#x8F93;&#x5165;&#x6587;&#x4EF6;]</th>
 <th style="text-align:center">[&#x53C2;&#x6570;&#x9009;&#x9879;]</th>
 <th style="text-align:center">-f</th>
 <th style="text-align:center">[&#x683C;&#x5F0F;]</th>
@@ -447,6 +447,21 @@
 </tr>
 </tbody>
 </table>
+<p>-c:a copy &#x8868;&#x793A; audio &#x7F16;&#x7801;&#x4E0D;&#x53D8;&#xFF0C;&#x76F4;&#x63A5;&#x590D;&#x5236;&#x8FC7;&#x53BB;(copy)
+-c:v copy &#x8868;&#x793A; video &#x7F16;&#x7801;&#x4E0D;&#x53D8;&#xFF0C;&#x76F4;&#x63A5;&#x590D;&#x5236;&#x8FC7;&#x53BB;(copy)</p>
+<pre><code>ffmpeg -i a.mp4 -i a.ass -c:a copy -vf ass=a.ass -f mp4 b.mp4
+</code></pre><p>&#x5C06;&#x89C6;&#x9891;&#x6587;&#x4EF6; a.mp4 &#x548C;&#x5B57;&#x5E55;&#x6587;&#x4EF6; a.ass &#x538B;&#x5236;&#x5728;&#x4E00;&#x8D77;&#xFF0C;&#x8F93;&#x51FA; b.mp4</p>
+<h3 id="&#x53C2;&#x6570;&#x8BF4;&#x660E;">&#x53C2;&#x6570;&#x8BF4;&#x660E;</h3>
+<p><code>-c:a</code> &#x540C; <code>-acodec</code>&#xFF0C;&#x7528;&#x4E8E;&#x6307;&#x5B9A;&#x97F3;&#x9891;&#x7F16;&#x7801;&#xFF0C;<code>copy</code>&#x539F;&#x6837;&#x62F7;&#x8D1D;&#x3001;<code>aac</code>aac&#x7F16;&#x7801;&#x7B49;&#x7B49;</p>
+<p><code>-c:v</code> &#x540C; <code>-vcodec</code>&#xFF0C;&#x7528;&#x4E8E;&#x6307;&#x5B9A;&#x89C6;&#x9891;&#x7F16;&#x7801;&#xFF0C;<code>copy</code>&#x539F;&#x6837;&#x62F7;&#x8D1D;&#x3001;<code>libx264</code>h264&#x7F16;&#x7801;&#x7B49;&#x7B49;</p>
+<p><code>-vn</code> &#x820D;&#x5F03;&#x89C6;&#x9891;</p>
+<p><code>-an</code> &#x820D;&#x5F03;&#x97F3;&#x9891;</p>
+<p><code>-y</code> &#x8986;&#x76D6;&#x5DF2;&#x6709;&#x6587;&#x4EF6;</p>
+<p><code>-r</code> &#x6307;&#x5B9A;&#x8F93;&#x51FA;&#x89C6;&#x9891;&#x5E27;&#x7387;</p>
+<p><code>-b</code> &#x8BBE;&#x5B9A;&#x8F93;&#x51FA;&#x7801;&#x7387;&#xFF0C; <code>-b:v</code>&#x8BBE;&#x7F6E;&#x89C6;&#x9891;&#x7801;&#x7387;&#xFF0C;<code>-b:a</code>&#x8BBE;&#x7F6E;&#x97F3;&#x9891;&#x7801;&#x7387;</p>
+<p><code>-crf</code> &#x8BBE;&#x5B9A;crf&#xFF0C;&#x9ED8;&#x8BA4;&#x503C;&#x4E3A;23&#xFF0C;&#x8BE6;&#x60C5;&#x89C1;<a href="../know/encode/crf.html">&#x76F8;&#x5173;&#x77E5;&#x8BC6;-&#x538B;&#x5236;-CRF</a></p>
+<p><code>-preset</code> &#x7F16;&#x7801;&#x9884;&#x8BBE;&#xFF0C;&#x9009;&#x9879;&#x6709;<code>ultrafast superfast veryfast faster fast medium slow slower veryslow placebo</code>&#xFF0C;&#x8D8A;&#x6162;&#x89C6;&#x9891;&#x8F93;&#x51FA;&#x8D28;&#x91CF;&#x8D8A;&#x9AD8;&#xFF0C;&#x4F46;&#x662F;&#x6240;&#x9700;&#x65F6;&#x95F4;&#x5927;&#x5E45;&#x589E;&#x52A0;</p>
+<p>FFmpeg &#x4E0D;&#x4EC5;&#x53EF;&#x4EE5;&#x7528;&#x4E8E;&#x97F3;&#x89C6;&#x9891;&#x7F16;&#x89E3;&#x7801;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x7528;&#x4E8E;&#x89C6;&#x9891;&#x753B;&#x9762;&#x622A;&#x53D6;&#x751A;&#x81F3;&#x89C6;&#x9891;&#x5236;&#x4F5C;&#x751F;&#x6210;&#xFF0C;&#x66F4;&#x591A;&#x7684;&#x8BF4;&#x660E;&#x8BF7;&#x89C1;&#x5B98;&#x65B9;&#x6587;&#x6863;</p>
 
                                 
                                 </section>
@@ -479,7 +494,7 @@
                 </a>
                 
                 
-                <a href="../KNOW.md" class="navigation navigation-next " aria-label="Next page: 相关知识">
+                <a href="../KNOW.html" class="navigation navigation-next " aria-label="Next page: 相关知识">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -490,7 +505,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"压制工具","level":"1.4.2","depth":2,"next":{"title":"相关知识","level":"1.5","depth":1,"path":"KNOW.md","ref":"KNOW.md","articles":[{"title":"压制","level":"1.5.1","depth":2,"path":"know/Encode.md","ref":"know/Encode.md","articles":[{"title":"nPass","level":"1.5.1.1","depth":3,"path":"know/encode/npass.md","ref":"know/encode/npass.md","articles":[]},{"title":"CRF","level":"1.5.1.2","depth":3,"path":"know/encode/crf.md","ref":"know/encode/crf.md","articles":[]}]}]},"previous":{"title":"预处理工具","level":"1.4.1","depth":2,"path":"tool/Pre.md","ref":"tool/Pre.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tool/Encode.md","mtime":"2019-10-13T11:43:14.691Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-13T11:46:45.522Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"压制工具","level":"1.4.2","depth":2,"next":{"title":"相关知识","level":"1.5","depth":1,"path":"KNOW.md","ref":"KNOW.md","articles":[{"title":"压制","level":"1.5.1","depth":2,"path":"know/Encode.md","ref":"know/Encode.md","articles":[{"title":"nPass","level":"1.5.1.1","depth":3,"path":"know/encode/npass.md","ref":"know/encode/npass.md","articles":[]},{"title":"CRF","level":"1.5.1.2","depth":3,"path":"know/encode/crf.md","ref":"know/encode/crf.md","articles":[]}]}]},"previous":{"title":"预处理工具","level":"1.4.1","depth":2,"path":"tool/Pre.md","ref":"tool/Pre.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tool/Encode.md","mtime":"2019-10-14T03:55:05.960Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-14T04:14:19.914Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
