@@ -36,6 +36,8 @@ VSFilterMod：<a href="../assets/VSFilterMod.dll" target="_blank">VSFilterMod.dl
 
 !> 在Windows和Mac平台下，**思源黑体**在系统中的名称各不相同，因此在直接使用字幕样式文件`joi.ass`时，可能会导致字幕字体异常；在`样式管理器`中重新设置下字幕字体即可解决这个问题。
 
+!> 这里提供的字幕样式分辨率为720p，如果给1080p视频打轴，请注意重设分辨率。
+
 ## 注意事项
 
 - 本文档中默认以[Aegisub](http://www.aegisub.org/)为字幕制作工具；使用其他工具时，保证字幕样式的一致性即可。

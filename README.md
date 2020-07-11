@@ -18,6 +18,8 @@
 
 - FFmpeg：[https://github.com/FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
 
+- MeGUI：[https://sourceforge.net/projects/megui](https://sourceforge.net/projects/megui/)
+
 - Adobe系列：[https://www.adobe.com](https://www.adobe.com/)
 
 - Aegisub：[http://www.aegisub.org](http://www.aegisub.org)
