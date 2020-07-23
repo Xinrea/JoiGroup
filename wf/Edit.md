@@ -57,4 +57,8 @@
 
 #### 其它素材
 
-`/公用素材`
+- JoiGroup：`/公用素材`
+
+- [AdobeAuditionDLCSFX](https://offers.adobe.com/en/na/audition/offers/audition_dlc/AdobeAuditionDLCSFX.html)
+
+- [いらすとや](https://www.irasutoya.com/)
