@@ -1,0 +1,12 @@
+﻿[Script Info]
+Title: JoiGroupAutoGenerate
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 轴中1080p,思源黑体 CN Heavy,90,&H00FFFFFF,&H000019FF,&H004490F6,&H00000000,0,0,0,0,100,100,0.75,0,1,4.5,4.5,2,0,0,60,1

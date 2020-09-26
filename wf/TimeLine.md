@@ -6,6 +6,8 @@
 
 ## 字幕样式
 
+### 基本样式 （720P）
+
 ```字幕样式参数
 字体：思源黑体 SourceHanSansCN-Heavy
 字色：白
@@ -23,6 +25,33 @@
 扩展：0
 大小：3像素
 ```
+### Aegisub样式（720P）
+
+```
+字体：思源黑体 SourceHanSansCN-Heavy
+字色：白
+字号：60
+底距：40
+边框：3
+阴影：3
+边框颜色：#ed8a48
+间距：0.5
+```
+
+### Aegisub样式（1080P）
+
+通过720P样式重设分辨率能够得到以下1080P样式
+
+```
+字体：思源黑体 SourceHanSansCN-Heavy
+字色：白
+字号：90
+底距：60
+边框：4.5
+阴影：4.5
+边框颜色：#ed8a48
+间距：0.75
+```
 
 ## 相关文件
 
@@ -32,11 +61,11 @@ VSFilterMod：<a href="../assets/VSFilterMod.dll" target="_blank">VSFilterMod.dl
 
 字体：<a href="../assets/思源黑体SourceHanSansCN-Heavy.otf" target="_blank">思源黑体</a>
 
-字幕样式：<a href="../assets/joi.ass" target="_blank">joi.ass</a>
+字幕样式：<a href="../assets/joi720.ass" target="_blank">joi720p.ass</a>/<a href="../assets/joi1080.ass" target="_blank">joi1080p.ass</a>
 
 !> 在Windows和Mac平台下，**思源黑体**在系统中的名称各不相同，因此在直接使用字幕样式文件`joi.ass`时，可能会导致字幕字体异常；在`样式管理器`中重新设置下字幕字体即可解决这个问题。
 
-!> 这里提供的字幕样式分辨率为720p，如果给1080p视频打轴，请注意重设分辨率。
+!> 这里提供了两种尺寸的字幕样式，请根据视频尺寸进行选择。
 
 ## 注意事项
 

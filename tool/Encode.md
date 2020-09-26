@@ -63,3 +63,5 @@ FFmpeg 不仅可以用于音视频编解码，还可以用于视频画面截取�
 ## MeGUI入门
 
 - [猴子也能学会的AVS+MEGUI压制教程](https://bbs.nga.cn/read.php?tid=5640265)
+
+!> 如果轴man在制作字幕时使用`VSFilterMod.dll`来制作特效，那么压制时也要使用`VSFilterMod.dll`，否则会出现特效缺失或是样式错误。
