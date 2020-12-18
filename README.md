@@ -30,6 +30,8 @@
 
 - いらすとや：[https://www.irasutoya.com](https://www.irasutoya.com/)
 
+- Vecorder：[https://greasyfork.org/zh-CN/scripts/418799-vecorder](https://greasyfork.org/zh-CN/scripts/418799-vecorder)
+
 ![广告](_media/ad.jpg)
 
 *文档最近更新时间：2020-12-19*

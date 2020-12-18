@@ -2,6 +2,7 @@
 * [一、简介](README.md)
 * [二、审核制度](REVIEW.md)
 * [三、工作流程](WORKFLOW.md)
+    * [0. 路灯](wf/Recorder.md)
     * [1. 剪辑](wf/Edit.md)
     * [2. 时间轴](wf/TimeLine.md)
     * [3. 美工](wf/Art.md)
