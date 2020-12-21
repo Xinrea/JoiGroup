@@ -12,6 +12,12 @@
 
 ?> 其中`JOI绿幕-表情.mp4`文件为阿轴所分享的表情展示绿幕视频，请自行截取合适的表情用于封面制作。
 
+- background generator：[https://background-generator.com/](https://background-generator.com/)
+
+- Subtle Patterns：[https://www.toptal.com/designers/subtlepatterns/](https://www.toptal.com/designers/subtlepatterns/)
+
+- Hero Patterns：[https://www.heropatterns.com/](https://www.heropatterns.com/)
+
 - 其它免费素材网站
 
 ## 注意事项

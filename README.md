@@ -30,6 +30,12 @@
 
 - いらすとや：[https://www.irasutoya.com](https://www.irasutoya.com/)
 
+- background generator：[https://background-generator.com/](https://background-generator.com/)
+
+- Subtle Patterns：[https://www.toptal.com/designers/subtlepatterns/](https://www.toptal.com/designers/subtlepatterns/)
+
+- Hero Patterns：[https://www.heropatterns.com/](https://www.heropatterns.com/)
+
 - Vecorder：[https://greasyfork.org/zh-CN/scripts/418799-vecorder](https://greasyfork.org/zh-CN/scripts/418799-vecorder)
 
 ![广告](_media/ad.jpg)
