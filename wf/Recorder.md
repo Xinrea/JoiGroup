@@ -8,4 +8,6 @@
 
 [Vecorder](https://greasyfork.org/zh-CN/scripts/418799-vecorder)
 
+使用说明与反馈见：[https://www.bilibili.com/read/cv8909875](https://www.bilibili.com/read/cv8909875)
+
 使用说明及注意事项见脚本安装界面，使用该脚本需安装浏览器插件[Tampermonkey](https://www.tampermonkey.net/)。
