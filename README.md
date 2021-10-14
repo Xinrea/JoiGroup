@@ -2,7 +2,7 @@
 
 本文档详细记录了轴伊二创组的制片流程及人员分工等信息，并提供了流程规范和相关工具的操作指南，并在最后附上了剪辑和时轴的简单新手入门指南；如果发现有错误的地方，请联系[@Xinrea](https://space.bilibili.com/475210)修改更正；同时也欢迎各位分享此文档，共同完善。
 
-!> 入组审核要求请见[审核制度](REVIEW.md)。
+!> 入组审核要求请见[审核制度](review.md)。
 
 ?> 轴伊二创组审核群：1036950496；同时也欢迎各位来审核群学习技能。
 
@@ -14,7 +14,7 @@
 
 - JoiGroupCloud：[https://pan.joi-club.cn](https://pan.joi-club.cn)
 
-- 录播取用：*暂不公开*
+- 录播取用：[https://record.joi-club.cn](https://record.joi-club.cn)
 
 - FFmpeg：[https://github.com/FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
 
@@ -38,6 +38,6 @@
 
 - Vecorder：[https://greasyfork.org/zh-CN/scripts/418799-vecorder](https://greasyfork.org/zh-CN/scripts/418799-vecorder)
 
-![广告](_media/ad.jpg)
+![广告](_media/new_ad.jpg)
 
-*文档最近更新时间：2020-12-19*
+*文档最近更新时间：2021-10-14*

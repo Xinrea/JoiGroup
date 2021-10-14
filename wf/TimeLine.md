@@ -42,7 +42,7 @@ VSFilterMod：<a href="../assets/VSFilterMod.dll" target="_blank">VSFilterMod.dl
 
 字体：<a href="../assets/思源黑体SourceHanSansCN-Heavy.otf" target="_blank">思源黑体</a>
 
-字幕样式：<a href="../assets/joi1080.ass" target="_blank">joi1080p.ass</a>
+字幕样式：<a href="../assets/joi1080p.ass" target="_blank">joi1080p.ass</a>
 
 !> 在 Windows 和 Mac 平台下，**思源黑体**在系统中的名称各不相同，因此在直接使用字幕样式文件`joi.ass`时，可能会导致字幕字体异常；在`样式管理器`中重新设置下字幕字体即可解决这个问题。
 
