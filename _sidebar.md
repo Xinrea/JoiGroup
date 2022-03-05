@@ -1,4 +1,4 @@
-<!-- docs/_sidebar.md -->
+<!-- _sidebar.md -->
 * [1. 简介](README.md)
 * [2. 审核制度](review.md)
 * [3. 工作流程](workflow.md)
